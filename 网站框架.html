@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            background-color: rgb(252, 252, 252);
+        }
+
+
+
+        /*.*.{
+            border:1px solid black;
+        }.*/
+
+        .flex{
+            display: flex;
+        }
+        
+        .flex1{
+            flex: 1;
+        }
+
+        .shuxiang{
+            flex-direction: column;
+        }
+        
+        .baiSe{
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        }
+
+        .mg5{
+            margin: 8px;
+        }
+
+        .mgr5{
+            margin-right: 5px;
+        }
+
+        .mgt5{
+            margin-top: 5px;
+        }
+
+        .mgl5{
+            margin-left: 5px;
+        }
+
+
+    </style>
+</head>
+<body class="flex">
+    <!-- 侧边栏 -->
+    <div style="width: 150px; z-index: 2" class="baiSe">
+        <!-- logo区 -->
+        <div style="justify-content: center; align-items: center;height: 80px ;border-bottom: 1px solid rgb(240, 240, 240)"  class="flex">
+            <img src="./要性青年.jpg" width="35px" height="35px" style="margin: 10px; border-radius:50%" alt="">
+            <div style="font-size: 13px; color: rgb(5, 5, 161); font-weight: bolder;">要性青年</div>
+        </div>
+        
+        <!-- 菜单栏 -->
+    </div>
+    <!-- 主区域 -->
+    <div class="flex flex1 shuxiang">
+            <!-- 头部栏 -->
+            <div style="height: 80px; z-index: 1;" class="baiSe"></div>
+            <!-- 内容栏 -->
+            <div style="overflow:auto" class="flex flex1">
+                <!-- 内容左区 -->
+                <div style="flex: 3" class="flex shuxiang">
+                    <!-- 内容左区上 -->
+                    <div style="height: 120px" class="flex">
+                        <!-- 内容左区上-模块1 -->
+                        <div class="flex1 baiSe mg5 mgr5 mgt5 mgl5"></div>
+                        <!-- 内容左区上-模块2 -->
+                        <div class="flex1 baiSe mg5 mgr5 mgt5 mgl5"></div>
+                        <!-- 内容左区上-模块3 -->
+                        <div class="flex1 baiSe mg5 mgr5 mgt5 mgl5"></div>
+                        <!-- 内容左区上-模块4 -->
+                        <div class="flex1 baiSe mg5 mgr5 mgt5 mgl5"></div>
+                    </div>
+                    <!-- 内容左区下 -->
+                    <div class="flex flex1 shuxiang">
+                        <!-- 内容左区下-模块1 -->
+                        <div style="height: 150px;" class="baiSe mg5 mgr5 mgt5 mgl5"></div>
+                        <!-- 内容左区下-模块2 -->
+                        <div style="height: 150px;" class="baiSe mg5 mgr5 mgt5 mgl5"></div>
+                        <!-- 内容左区下-模块3 -->
+                        <div style="height: 150px;" class="baiSe mg5 mgr5 mgt5 mgl5"></div>
+                        <!-- 内容左区下-模块4 -->
+                        <div style="height: 150px;" class="baiSe mg5 mgr5 mgt5 mgl5"></div>
+                        <!-- 内容左区下-模块5 -->
+                        <div style="height: 150px;" class="baiSe mg5 mgr5 mgt5 mgl5"></div>
+                        <!-- 内容左区下-模块6 -->
+                        <div style="height: 150px;" class="baiSe mg5 mgr5 mgt5 mgl5"></div>
+                        <!-- 内容左区下-模块7 -->
+                        <div style="height: 150px;" class="baiSe mg5 mgr5 mgt5 mgl5"></div>
+                    </div>
+                </div>
+                <!-- 内容右区 -->
+                <div>
+                        <!-- 内容右区-模块1 -->
+                        <div style="height: 150px; width:200px" class="baiSe mg5 mgr5 mgt5 mgl5"></div>
+                        <!-- 内容右区-模块2 -->
+                        <div style="height: 300px; width:200px" class="baiSe mg5 mgr5 mgt5 mgl5"></div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
